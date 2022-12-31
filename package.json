@@ -1,6 +1,6 @@
 {
   "name": "twitster",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "git init",
   "main": "index.js",
   "scripts": {

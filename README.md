@@ -1,9 +1,6 @@
 # Twitster
 [![npm](https://img.shields.io/npm/v/twitster.svg?style=flat-square)](https://www.npmjs.com/package/twitster)
 ![building workflow](https://github.com/hamedpa/twitster/actions/workflows/nodejs.yml/badge.svg)
-
-[download-url]: https://npmjs.org/package/twitster
-
 [![license](https://img.shields.io/npm/l/@vitalets/google-translate-api.svg)](https://www.npmjs.com/package/@vitalets/google-translate-api)
 ![alt text](./img/logo.png?raw=true)
 
