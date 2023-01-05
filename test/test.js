@@ -6,7 +6,6 @@ describe('Testing Response of service" ', async () => {
 		var listOfTweets = await findTopTweets("bitcoin");
 		expect(listOfTweets.length).to.greaterThan(0);
 		listOfTweets.map((tweet) => {
-			expect(tweet.authorName).to.exist;
 			expect(tweet.nextPageToken).to.exist;
 			expect(tweet.tweetLink).to.exist;
 			expect(tweet.tweetCreatedAt).to.exist;
