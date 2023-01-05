@@ -18,6 +18,7 @@ A free and unlimited API for twitter.
   * [Get-Tweet-Replies](#get-tweet-replies)
   * [Search-Users](#search-users)
   * [Get-User-Detail](#get-user-detail)
+  * [Translate-Tweets](#translate-tweets)
 - [License](#license)
 
 <!-- tocstop -->
@@ -28,6 +29,7 @@ A free and unlimited API for twitter.
 * search keyword inside tweets
 * search users
 * get and search tweets for single user
+* translate tweets
 
 ## Installation
 ```bash
@@ -363,6 +365,65 @@ console.log(detailOfUser);
     }
 ]}
 ```
+<hr>
+
+### Translate tweets
+
+for extract translated tweets just add language inside options</br>
+find your language code from <a href="https://www.npmjs.com/package/subtranslator">here</a>
+
+```javascript
+const { findTopTweets } = require('twitster');
+
+var translatedTweets = await findTopTweets("bitcoin", options = { language: 'de' });
+console.log(translatedTweets);
+
+```
+
+#### Output
+
+```javascript
+[
+  {
+    id: '4937c6d261',
+    authorName: 'marvinFrancois',
+    authorBlueCheckMark: false,
+    tweetContent: '#Bitcoin ist bereit für einen riesigen Bullenlauf.',
+    hashtags: [ '#Bitcoin' ],
+    commentCount: '0',
+    likeCount: '0',
+    retweetCount: '0',
+    quoteCount: '0',
+    tweetTime: '8s',
+    tweetCreatedAt: 'Jan 5, 2023 · 8:49 PM UTC',
+    tweetLink: '/marviinFrancois/status/1611102551893594115#m',
+    nextPageToken: 'scroll%3AthGAVUV0VFVBaWwL6R2s7k2ywWgIDQzbnQ5NssEnEV8IV6FYCJehgEVVNFUjUBFQAVAAA%3D',
+    originalTweet: '#Bitcoin    is ready for a huge bull run.'
+  },
+  {
+    id: 'f9d902908f',
+    authorName: 'Guy Swann ⚡️',
+    authorBlueCheckMark: false,
+    retweeted: 'thee junior class prezzy ✨',
+    tweetContent: 'Es ist die grundlegende Natur und das Design von #Bitcoin, die den FTX-Betrug unweigerlich zum Scheitern verurteilt und schnell demoliert haben, als es klar wurde.\n' +
+      '\n' +
+      'Und aus dem gleichen Grund ist #Bitcoin unsere einzige Chance, den globalen Geldbetrug zu korrigieren.',
+    hashtags: [ '#Bitcoin', '#Bitcoin' ],
+    commentCount: '0',
+    likeCount: '38',
+    retweetCount: '0',
+    quoteCount: '0',
+    tweetTime: '14 Dec 2022',
+    tweetCreatedAt: 'Dec 14, 2022 · 6:45 PM UTC',
+    tweetLink: '/TheGuySwann/status/1603098882627567618#m',
+    nextPageToken: 'scroll%3AthGAVUV0VFVBaWwL6R2s7k2ywWgIDQzbnQ5NssEnEV8IV6FYCJehgEVVNFUjUBFQAVAAA%3D',
+    originalTweet: 'It is the fundamental nature & design of #Bitcoin that made the FTX fraud inevitably doomed to fail & quickly demolished when it became clear.\n' +
+      '\n' +
+      'And it’s the same reason why #Bitcoin is our only shot at correcting the global monetary scam.'
+  }
+]
+```
+
 <hr>
 
 ## Support
