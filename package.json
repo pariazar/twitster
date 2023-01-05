@@ -1,7 +1,7 @@
 {
   "name": "twitster",
-  "version": "1.0.2",
-  "description": "git init",
+  "version": "1.0.3",
+  "description": "A free and unlimited API for twitter, also you can translate tweets.",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/test.js"
