@@ -1,1 +1,1 @@
-module.exports = require('./modules/tweetService');
+module.exports = require('./lib/tweetService');

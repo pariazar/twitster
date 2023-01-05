@@ -1,6 +1,6 @@
 {
   "name": "twitster",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "git init",
   "main": "index.js",
   "scripts": {
@@ -33,6 +33,7 @@
   "dependencies": {
     "@vitalets/google-translate-api": "^9.0.0",
     "axios": "^0.21.4",
+    "crypto-js": "^4.1.1",
     "cryptr": "^6.0.3",
     "dotenv": "^16.0.0",
     "jsdom": "^19.0.0"
