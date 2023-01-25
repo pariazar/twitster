@@ -1,6 +1,6 @@
 {
   "name": "twitster",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A free and unlimited API for twitter, also you can translate tweets.",
   "main": "index.js",
   "scripts": {
