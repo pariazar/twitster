@@ -73,6 +73,7 @@ console.log(listOfTweets);
   tweetTime: '1m',
   tweetCreatedAt: 'Dec 31, 2022 · 9:43 AM UTC',
   tweetLink: '/IT_AIRmass/status/1609123005396819969#m',
+  images: [],
   nextPageToken: 'scroll%3AthGAVUV0VFVBaAgLLF_8vg1CwWhMC8-a7O4NQsEnEVhIZ6FYCJehgEVVNFUjUBFQAVAAA%3D'
 },
 {
@@ -87,6 +88,9 @@ console.log(listOfTweets);
     tweetTime: '9s',
     tweetCreatedAt: 'Dec 31, 2022 · 9:44 AM UTC',
     tweetLink: '/MathProfesor/status/1609123389364371456#m',
+    images: [
+      'https://nitter.tiekoetter.com/pic/media%2FFnUar77WIAAwzdu.jpg%3Fname%3Dsmall%26format%3Dwebp'
+    ],
     nextPageToken: 'scroll%3AthGAVUV0VFVBaAgLLF_8vg1CwWhMC8-a7O4NQsEnEVhIZ6FYCJehgEVVNFUjUBFQAVAAA%3D'
 }];
 ```
@@ -275,6 +279,9 @@ console.log(detailOfUser);
       tweetTime: 'Dec 21',
       tweetCreatedAt: 'Dec 21, 2022 · 5:25 PM UTC',
       tweetLink: '/Bitcoin/status/1605615442134855680#m',
+      images: [
+      'https://nitter.tiekoetter.com/pic/media%2FFnUar77WIAAwzdu.jpg%3Fname%3Dsmall%26format%3Dwebp'
+      ],
       nextPageToken: 'HBaAwK3pqsnovSwAAA%3D%3D'
     },
     {
@@ -291,6 +298,7 @@ console.log(detailOfUser);
       tweetTime: 'Dec 19',
       tweetCreatedAt: 'Dec 19, 2022 · 3:29 PM UTC',
       tweetLink: '/Bitcoin/status/1604861594160070656#m',
+      images: [],
       nextPageToken: 'HBaAwK3pqsnovSwAAA%3D%3D'
     }
   ]
