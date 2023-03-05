@@ -6,25 +6,25 @@
   "scripts": {
     "test": "mocha test/test.js"
   },
-  "author": "hamedPa",
+  "author": "pariazar",
   "engines": {
     "node": ">4.0"
   },
   "license": "MIT",
-  "homepage": "https://github.com/hamedpa/twitster",
+  "homepage": "https://github.com/pariazar/twitster",
   "contributors": [
     {
-      "name": "HamedPa",
-      "email": "hamedpa21@gmail.com",
-      "url": "https://github.com/hamedpa"
+      "name": "pariazar",
+      "email": "hamedpa19@gmail.com",
+      "url": "https://github.com/pariazar"
     }
   ],
   "bugs": {
-    "url": "https://github.com/hamedpa/twitster/issues/new"
+    "url": "https://github.com/pariazar/twitster/issues/new"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hamedpa/twitster"
+    "url": "https://github.com/pariazar/twitster"
   },
   "devDependencies": {
     "chai": "4.1.2",
