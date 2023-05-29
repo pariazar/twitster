@@ -36,7 +36,7 @@
     "crypto-js": "^4.1.1",
     "cryptr": "^6.0.3",
     "dotenv": "^16.0.0",
-    "jsdom": "^19.0.0"
+    "jsdom": "^22.1.0"
   },
   "keywords": [
     "twitter",
